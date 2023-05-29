@@ -1,0 +1,26 @@
+.faq-container {
+    display: flex;
+  }
+  
+  .index-column {
+    width: 20%;
+    padding-right: 20px; /* Add some spacing between the columns */
+    box-sizing: border-box; /* Make sure padding is included in the width */
+  }
+  
+  .text-column {
+    width: 80%; /* Subtract the width of the index column from 100% */
+    font-size: large;
+  }
+
+  .index-column ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .index-column li {
+    background-color: #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
